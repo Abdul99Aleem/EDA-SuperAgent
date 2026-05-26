@@ -1,0 +1,40 @@
+# Design Specification Template
+
+## Design Name
+[Fill in your design name]
+
+## Overview
+[Brief description of what this RTL design does]
+
+## Module Hierarchy
+- Top module: [name]
+- Sub-modules: [list]
+
+## Interfaces
+- Interface type: [AXI-Lite / AXI4 / APB / custom]
+- Data width: [bits]
+- Address width: [bits]
+
+## Functional Requirements
+1. [Requirement 1]
+2. [Requirement 2]
+3. [Requirement 3]
+
+## Timing Constraints
+- Clock frequency: [MHz]
+- Reset duration: [cycles]
+- Transfer latency: [cycles]
+
+## Expected Behavior
+1. [Behavior 1]
+2. [Behavior 2]
+3. [Behavior 3]
+
+## Protocol Constraints
+- [Constraint 1]
+- [Constraint 2]
+
+## Test Priorities
+- P0 (Critical): [list]
+- P1 (Important): [list]
+- P2 (Nice to have): [list]

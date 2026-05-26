@@ -1,0 +1,29 @@
+# VLSI Super Agent - Outputs and temporary files
+outputs/
+mental_model/history/
+memory/session_activity.log
+
+# Vivado temporary files
+*.jou
+*.log
+*.pb
+*.wdb
+.Xil/
+xsim.dir/
+*.vcd
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

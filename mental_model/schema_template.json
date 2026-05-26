@@ -1,0 +1,44 @@
+{
+  "design_name": "FILL_IN",
+  "build_date": "FILL_IN",
+  "rtl_version": "v1",
+  "rtl_files": [],
+  "spec_file": "inputs/specs/design.txt",
+  "modules": [
+    {
+      "name": "FILL_IN",
+      "type": "top",
+      "ports": {
+        "inputs": [
+          {"name": "clk", "width": 1, "direction": "input"},
+          {"name": "rst_n", "width": 1, "direction": "input"}
+        ],
+        "outputs": []
+      },
+      "parameters": {},
+      "submodules": []
+    }
+  ],
+  "interfaces": [
+    {
+      "type": "AXI-Lite",
+      "master": "FILL_IN",
+      "slave": "FILL_IN",
+      "data_width": 32,
+      "addr_width": 32,
+      "protocol_constraints": []
+    }
+  ],
+  "constraints": [],
+  "expected_behavior": [],
+  "hierarchy": {
+    "top": "FILL_IN",
+    "depth": 1,
+    "tree": {}
+  },
+  "coverage_targets": {
+    "line": 90,
+    "branch": 80,
+    "toggle": 70
+  }
+}

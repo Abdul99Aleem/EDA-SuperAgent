@@ -1,0 +1,21 @@
+{
+  "autoMemoryEnabled": true,
+  "autoMemoryDirectory": "./memory",
+  "model": "claude-sonnet-4-5",
+  "permissions": {
+    "allow": [
+      "Bash(vivado:*)",
+      "Bash(xsim:*)",
+      "Bash(ollama:*)",
+      "Bash(python3:*)",
+      "Read(**)",
+      "Write(outputs/**)",
+      "Write(memory/**)",
+      "Write(mental_model/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)"
+    ]
+  }
+}
